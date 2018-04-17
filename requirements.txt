@@ -1,0 +1,10 @@
+certifi==2018.1.18
+dj-database-url==0.5.0
+Django==2.0.4
+gunicorn==19.7.1
+pipenv==11.10.0
+pytz==2018.4
+virtualenv==15.2.0
+virtualenv-clone==0.3.0
+whitenoise==3.3.1
+psycopg2==2.7.2

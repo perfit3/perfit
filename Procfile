@@ -1,0 +1,1 @@
+web: gunicorn perfiit3.wsgi --log-file -
