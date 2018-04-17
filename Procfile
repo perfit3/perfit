@@ -1,1 +1,1 @@
-web: gunicorn perfiit3.wsgi --log-file -
+web: gunicorn perfit3.wsgi --log-file -
