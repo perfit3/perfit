@@ -1,1 +1,1 @@
-web: gunicorn perfit3.wsgi --log-file -
+web:python perfit3/manage.py collectstatic --noinput; gunicorn perfit3.wsgi --log-file -
