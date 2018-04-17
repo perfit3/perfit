@@ -78,9 +78,9 @@ WSGI_APPLICATION = 'perfit3.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'perfit3',
+        'NAME': 'perfit3db',
         'USER': 'admin',
-        'PASSWORD': '',
+        'PASSWORD': 'randyjulian ',
         'HOST': 'localhost',
         'PORT': '',
     }
