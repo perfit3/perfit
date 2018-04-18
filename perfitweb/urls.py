@@ -5,6 +5,7 @@ from django.urls import path, include
 
 urlpatterns = [
     path('',views.post_list, name='post_list'),
+    url(r'^post/(?P<pk>\d+)/$', views.post_detail, name='post_detail'),
     # path('', views.HomePageView.as_view()),
     # path('about/', views.AboutPageView.as_view()),
     path('accounts/', include('django.contrib.auth.urls')),
