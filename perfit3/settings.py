@@ -71,6 +71,7 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'perfit3.wsgi.application'
 
+LOGIN_REDIRECT_URL = '/'
 
 # Database
 # https://docs.djangoproject.com/en/2.0/ref/settings/#databases
