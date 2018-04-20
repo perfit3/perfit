@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.background{
+    width:100%;
+    height:700px;
+    background-size: cover !important;
+}
+
+.tagline{
+    text-align: center;
+    font-family: 'Raleway';
+    padding-top: 350px;
+    color:#fff
+}
+
+.super-background{
+    background-color: orange;
+}
+
+.button-round{
+    border-radius: 20;
+    text-align: center;
+    margin: 10px
+}
