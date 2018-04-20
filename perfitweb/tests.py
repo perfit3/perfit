@@ -1,5 +1,5 @@
 from django.test import TestCase
-from django.core.urlresolvers import reverse
+from django.urls import reverse
 
 class postListTests(TestCase):
     def test_post_list_view_status_code(self):
